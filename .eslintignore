@@ -1,0 +1,10 @@
+# nuxt 및 빌드 파일
+.nuxt
+dist
+node_modules
+storybook-static
+
+# 선언 파일
+auto-imports.d.ts
+shims-vue.d.ts
+*.d.ts 

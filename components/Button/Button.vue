@@ -3,8 +3,8 @@
     @click="handleClick"
     :size="size"
     :severity="severity"
-    :label="isClicked ? 'Clicked!' : label"
-    :disabled="isClicked || disabled"
+    :label="label"
+    :disabled="disabled"
     :icon="icon ? `pi ${icon}` : undefined"
   />
 </template>
@@ -23,20 +23,11 @@ const {
   callback
 } = defineProps<ButtonProps>()
 
-const isClicked = ref(false)
 
 const handleClick = () => {
-  isClicked.value = true
   if (callback) {
     callback()
   }
 }
 
-watch(isClicked, (value: boolean) => {
-  if (value) {
-    setTimeout(() => {
-      isClicked.value = false
-    }, 500)
-  }
-})
 </script>

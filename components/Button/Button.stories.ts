@@ -45,7 +45,13 @@ export const Component: Story = {
       control: 'boolean'
     },
     icon: {
-      control: 'select',
+      control: {
+        type: 'select',
+        labels: {
+          undefined: 'None',
+          ...Object.fromEntries(Object.entries(ButtonIconEnum).map(([key, value]) => [value, key]))
+        },
+      },
       options: [undefined, ...Object.values(ButtonIconEnum)]
     },
     callback: {

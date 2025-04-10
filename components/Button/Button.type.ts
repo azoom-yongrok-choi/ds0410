@@ -7,13 +7,11 @@ export enum ButtonSizeEnum {
 export enum ButtonSeverityEnum {
   primary = 'primary',
   secondary = 'secondary',
-  tertiary = 'tertiary',
-  info = 'info',
   success = 'success',
-  warning = 'warning',
+  info = 'info',
+  warn = 'warn',
+  help = 'help',
   danger = 'danger',
-  light = 'light',
-  dark = 'dark'
 }
 
 export enum ButtonIconEnum {

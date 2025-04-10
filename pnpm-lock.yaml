@@ -23,6 +23,9 @@ importers:
       nuxt:
         specifier: ^3.16.2
         version: 3.16.2(@parcel/watcher@2.5.1)(db0@0.3.1)(eslint@9.24.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.39.0)(terser@5.39.0)(typescript@5.8.3)(vite@6.2.5(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.1))(vue-tsc@2.2.8(typescript@5.8.3))(yaml@2.7.1)
+      primeicons:
+        specifier: ^7.0.0
+        version: 7.0.0
       primevue:
         specifier: ^4.3.3
         version: 4.3.3(vue@3.5.13(typescript@5.8.3))
@@ -52,19 +55,19 @@ importers:
         specifier: ^4.3.3
         version: 4.3.3(@babel/parser@7.27.0)(magicast@0.3.5)(vue@3.5.13(typescript@5.8.3))
       '@storybook/addon-essentials':
-        specifier: ^8.6.12
+        specifier: ^8.3.3
         version: 8.6.12(@types/react@19.1.0)(storybook@8.6.12(prettier@3.5.3))
       '@storybook/blocks':
-        specifier: ^8.6.12
+        specifier: ^8.3.3
         version: 8.6.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(storybook@8.6.12(prettier@3.5.3))
       '@storybook/experimental-addon-test':
-        specifier: ^8.6.12
+        specifier: ^8.3.3
         version: 8.6.12(@vitest/browser@3.1.1)(@vitest/runner@3.1.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(storybook@8.6.12(prettier@3.5.3))(vitest@3.1.1)
       '@storybook/test':
-        specifier: ^8.6.12
+        specifier: ^8.3.3
         version: 8.6.12(storybook@8.6.12(prettier@3.5.3))
       '@storybook/vue3':
-        specifier: ^8.6.12
+        specifier: ^8.3.3
         version: 8.6.12(storybook@8.6.12(prettier@3.5.3))(vue@3.5.13(typescript@5.8.3))
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.29.1
@@ -103,7 +106,7 @@ importers:
         specifier: ^3.5.3
         version: 3.5.3
       storybook:
-        specifier: ^8.6.12
+        specifier: ^8.3.3
         version: 8.6.12(prettier@3.5.3)
       typescript:
         specifier: ^5.8.3
@@ -4216,6 +4219,9 @@ packages:
   pretty-format@27.5.1:
     resolution: {integrity: sha512-Qb1gy5OrP5+zDf2Bvnzdl3jsTf1qXVMazbvCoKhtKqVs4/YK4ozX4gKQJJVyNe+cajNPn0KoC0MC3FUmaHWEmQ==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
+
+  primeicons@7.0.0:
+    resolution: {integrity: sha512-jK3Et9UzwzTsd6tzl2RmwrVY/b8raJ3QZLzoDACj+oTJ0oX7L9Hy+XnVwgo4QVKlKpnP/Ur13SXV/pVh4LzaDw==}
 
   primevue@4.3.3:
     resolution: {integrity: sha512-nooYVoEz5CdP3EhUkD6c3qTdRmpLHZh75fBynkUkl46K8y5rksHTjdSISiDijwTA5STQIOkyqLb+RM+HQ6nC1Q==}
@@ -10129,6 +10135,8 @@ snapshots:
       ansi-regex: 5.0.1
       ansi-styles: 5.2.0
       react-is: 17.0.2
+
+  primeicons@7.0.0: {}
 
   primevue@4.3.3(vue@3.5.13(typescript@5.8.3)):
     dependencies:
